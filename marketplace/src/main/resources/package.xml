@@ -1,0 +1,19 @@
+<package type="addon" name="google-storage" version="@VERSION@">
+  <title>Google Storage</title>
+  <description>The Google Storage addon is a Nuxeo Binary Manager for Google object store. It stores files (the attached documents) in an Google bucket, with server side and client side encryption support.
+  </description>
+  <home-page>https://doc.nuxeo.com/nxdoc/google-storage/</home-page>
+  <platforms>
+    <platform>server-@DISTVERSION@</platform>
+    <platform>server-@DISTVERSION@-*</platform>
+  </platforms>
+  <hotreload-support>false</hotreload-support>
+  <supported>true</supported>
+  <require-terms-and-conditions-acceptance>true</require-terms-and-conditions-acceptance>
+  <production-state>production_ready</production-state>
+  <nuxeo-validation>nuxeo_certified</nuxeo-validation>
+  <vendor>Nuxeo</vendor>
+  <license>LGPL</license>
+  <license-url>http://www.gnu.org/licenses/lgpl-2.1.html</license-url>
+  <visibility>MARKETPLACE</visibility>
+</package>
