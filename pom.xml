@@ -12,6 +12,11 @@
   <name>Nuxeo Google Storage Marketplace</name>
   <version>1.0.0-SNAPSHOT</version>
 
+  <properties>
+    <marketplace.gcp.version>1.0.0-SNAPSHOT</marketplace.gcp.version>
+    <nuxeo.target.version>10.10</nuxeo.target.version>
+  </properties>
+
   <dependencyManagement>
     <dependencies>
       <dependency>
