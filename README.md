@@ -8,9 +8,7 @@ Google Storage is a component of the Nuxeo platform that offers the option of st
 
 # Testing
 
-To run the tests, use '-Pitest' (or run from ftest/webdriver).
-
-This requires:
+It requires:
 
 - having your Google bucket name and secret key in your environment (used by the binary manager)
 - having Google cmd installed and configured with the same keys (used for cleanup)
